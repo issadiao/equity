@@ -1,0 +1,14 @@
+name: rbg_theme
+type: theme
+description: 'Custom Theme for My Website.'
+package: Other
+core_version_requirement: ^8 || ^9
+libraries:
+  - rbg_theme/global-styling
+
+base theme: claro
+regions:
+    navigation: Navigation
+    content: Content
+    footer: Footer
+    highlighted: Highlighted

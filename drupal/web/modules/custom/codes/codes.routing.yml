@@ -1,0 +1,13 @@
+codes.generateCodes:
+  path: '/generate-codes'
+  defaults:
+    _controller: '\Drupal\codes\Controller\CodesController::generateCodes'
+  requirements:
+    _access: 'TRUE'
+
+codes.activateCode:
+  path: '/activate-code'
+  defaults:
+    _controller: '\Drupal\codes\Controller\CodesController::activateCode'
+  requirements:
+    _access: 'TRUE'

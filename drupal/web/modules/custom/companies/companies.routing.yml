@@ -1,0 +1,6 @@
+codes.generate:
+  path: '/employees'
+  defaults:
+    _controller: '\Drupal\companies\Controller\CompaniesController::employees'
+  requirements:
+    _permission: 'access content'
