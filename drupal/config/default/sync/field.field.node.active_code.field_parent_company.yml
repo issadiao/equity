@@ -1,0 +1,29 @@
+uuid: fac26440-e8ad-41c7-b092-06cecef4badf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parent_company
+    - node.type.active_code
+    - node.type.company
+id: node.active_code.field_parent_company
+field_name: field_parent_company
+entity_type: node
+bundle: active_code
+label: 'Parent Company'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      company: company
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

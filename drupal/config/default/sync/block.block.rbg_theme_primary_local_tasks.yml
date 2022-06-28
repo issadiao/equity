@@ -1,0 +1,22 @@
+uuid: 204bbf06-5d7e-48c9-8616-9ad01890a963
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rbg_theme
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: rbg_theme_primary_local_tasks
+theme: rbg_theme
+region: navigation
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 905e4ce8-5e4c-4297-babd-8f39a6335876
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.company_admin
+  module:
+    - user
+id: user_add_role_action.company_admin
+label: 'Add the Company Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: company_admin

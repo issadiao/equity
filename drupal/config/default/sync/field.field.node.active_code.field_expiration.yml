@@ -1,0 +1,21 @@
+uuid: 110ca858-8f4b-4cf5-af38-d2d94753e23f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expiration
+    - node.type.active_code
+  module:
+    - datetime
+id: node.active_code.field_expiration
+field_name: field_expiration
+entity_type: node
+bundle: active_code
+label: Expiration
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

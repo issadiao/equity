@@ -1,0 +1,22 @@
+uuid: 3e0684ee-0f13-480f-9ce2-c0712c04fa13
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rbg_theme
+_core:
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
+id: rbg_theme_breadcrumbs
+theme: rbg_theme
+region: navigation
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

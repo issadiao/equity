@@ -1,0 +1,28 @@
+uuid: 014d3392-37eb-4db7-af40-df6a8235d106
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.active_code.field_expiration
+    - field.field.node.active_code.field_parent_company
+    - field.field.node.active_code.field_status
+    - field.field.node.active_code.field_withdrawal_limit
+    - node.type.active_code
+  module:
+    - user
+id: node.active_code.teaser
+targetEntityType: node
+bundle: active_code
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_expiration: true
+  field_parent_company: true
+  field_status: true
+  field_withdrawal_limit: true

@@ -1,0 +1,24 @@
+uuid: 4f6968db-5edf-4f54-8c45-08dccc284edc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.company.field_stripe_account
+    - field.field.node.company.field_withdrawal_limit
+    - node.type.company
+  module:
+    - user
+id: node.company.teaser
+targetEntityType: node
+bundle: company
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_stripe_account: true
+  field_withdrawal_limit: true

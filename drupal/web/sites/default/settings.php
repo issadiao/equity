@@ -90,6 +90,18 @@
  */
 $databases = [];
 
+$databases['default']['default'] = array (
+  'database' => 'acps',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => '127.0.0.1',
+  'port' => '8889',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+  'driver' => 'mysql',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
+);
+
 /**
  * Customizing database settings.
  *
@@ -771,15 +783,5 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'acps',
-  'username' => 'root',
-  'password' => 'root',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '8889',
-  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
-  'driver' => 'mysql',
-  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
-);
-$settings['config_sync_directory'] = 'sites/default/files/config_Aa3T7_9ulehgbCEPp6kdpMfUvIWwT4I2uJtCJlAe2Tg54Ue079IdCQXWn3lKhxVeOwY_xFdHmQ/sync';
+
+$settings['config_sync_directory'] = '../config/default/sync';

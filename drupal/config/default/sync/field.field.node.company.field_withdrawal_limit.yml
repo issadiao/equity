@@ -1,0 +1,23 @@
+uuid: b593df0d-4c5b-4c28-9b1d-cc6e422d4a55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_withdrawal_limit
+    - node.type.company
+id: node.company.field_withdrawal_limit
+field_name: field_withdrawal_limit
+entity_type: node
+bundle: company
+label: 'Withdrawal Limit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

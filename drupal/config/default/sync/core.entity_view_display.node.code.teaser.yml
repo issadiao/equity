@@ -1,0 +1,30 @@
+uuid: ea08d13b-450e-444c-b9fa-8f89a07924a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.code.field_employee_email
+    - field.field.node.code.field_expiration
+    - field.field.node.code.field_parent_company
+    - field.field.node.code.field_status
+    - field.field.node.code.field_withdrawal_limit
+    - node.type.code
+  module:
+    - user
+id: node.code.teaser
+targetEntityType: node
+bundle: code
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_employee_email: true
+  field_expiration: true
+  field_parent_company: true
+  field_status: true
+  field_withdrawal_limit: true

@@ -1,0 +1,20 @@
+uuid: 44581ce0-95bb-47d6-8516-8883ae7c1986
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rbg_theme
+_core:
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: rbg_theme_local_actions
+theme: rbg_theme
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 03aa970b-e948-464a-baa7-651228a26842
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rbg_theme
+_core:
+  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
+id: rbg_theme_page_title
+theme: rbg_theme
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,38 @@
+uuid: 7601bd22-42fa-4ba5-aec3-e9899eb5e59a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.company.field_stripe_account
+    - field.field.node.company.field_withdrawal_limit
+    - node.type.company
+  module:
+    - user
+id: node.company.default
+targetEntityType: node
+bundle: company
+mode: default
+content:
+  field_stripe_account:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_withdrawal_limit:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

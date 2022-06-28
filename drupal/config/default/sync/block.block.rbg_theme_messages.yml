@@ -1,0 +1,22 @@
+uuid: 048ac175-1960-4e21-95a5-3d66028b25b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rbg_theme
+_core:
+  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
+id: rbg_theme_messages
+theme: rbg_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

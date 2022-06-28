@@ -1,0 +1,19 @@
+uuid: 5b866c0a-4178-480e-ac71-52299520d4f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stripe_account
+    - node.type.company
+id: node.company.field_stripe_account
+field_name: field_stripe_account
+entity_type: node
+bundle: company
+label: 'Stripe Account'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

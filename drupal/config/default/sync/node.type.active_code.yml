@@ -1,0 +1,18 @@
+uuid: 2c59a1fc-abd9-48fb-82b4-e133477643b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Active Code'
+type: active_code
+description: 'The anonymous code'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
