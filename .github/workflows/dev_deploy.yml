@@ -6,9 +6,9 @@ on:
 jobs:
   dev_deploy:
     name: Dev Deploy
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - name: SSH Remote Commands Dev Deploy 2
+      - name: SSH Remote Commands Dev Deploy
         uses: appleboy/ssh-action@v0.1.4
         with:
           host: 143.198.58.137
