@@ -7,6 +7,7 @@ jobs:
   dev_deploy:
     name: Dev Deploy
     runs-on: ubuntu-latest
+    environment: Dev
     steps:
       - name: SSH Remote Commands Dev Deploy
         uses: appleboy/ssh-action@v0.1.4
