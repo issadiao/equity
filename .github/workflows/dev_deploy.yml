@@ -8,12 +8,12 @@ jobs:
     name: Dev Deploy
     runs-on: ubuntu-20.04
     steps:
-      - name: SSH Remote Commands Dev Deploy
+      - name: SSH Remote Commands Dev Deploy 2
         uses: appleboy/ssh-action@v0.1.4
         with:
           host: 143.198.58.137
           username: root
-          key: ${{ DEV_KEY }}
+          key: ${{ secrets.DEV_KEY }}
           port: 22
           script: |
             cd /var/www/html/equity
