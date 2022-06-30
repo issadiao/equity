@@ -13,7 +13,7 @@ jobs:
         with:
           host: 143.198.58.137
           username: root
-          key: ${{ Dev.DEV_KEY }}
+          key: ${{ DEV_KEY }}
           port: 22
           script: |
             cd /var/www/html/equity
